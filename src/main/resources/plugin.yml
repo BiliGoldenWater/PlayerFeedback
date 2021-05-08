@@ -4,3 +4,8 @@ main: indi.goldenwater.playerfeedback.PlayerFeedback
 api-version: 1.15
 authors: [ Golden_Water ]
 description: A plugin to help administrators process players feedback
+commands:
+  playerfeedback:
+    usage: /playerfeedback help
+    aliases: [ "fb", "feedback", "suggestion", "suggest", "sug" ]
+    description: Plugin main command.
